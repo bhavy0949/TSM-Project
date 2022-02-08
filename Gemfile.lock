@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/parth-verma/jekyll-webp
+  revision: 039b642a5317026ecd7a9ddb6b938dbaf84f7787
+  specs:
+    jekyll-webp (1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,6 +68,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-webp!
 
 BUNDLED WITH
    2.3.6

@@ -1,0 +1,78 @@
+.banner .title{
+    font-family:HarleyStyle;
+    font-size:24px;
+
+    color: white;
+letter-spacing: 1px;
+font-family: Staatliches;
+padding-top: 150px;
+padding-bottom: 50px;
+background-color: rgba(0, 0, 0, .5);
+}
+.banner{
+    background-image: url(/assets/images/releases-banner.jpg);
+    background-position: center;
+}
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.filter-item{
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Staatliches';
+    letter-spacing: 1px;
+    color: #333;
+    padding-right: 15px;
+}
+
+.filter-item:last-child{
+    color: #333;
+    padding-right: 0px;
+}
+
+.filter-item.active{
+    font-weight: 900;
+}
+
+.ytb-thumb{
+    object-fit: cover;
+    display: block;
+}
+
+.fa-play{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%,-50%) ;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    border: 2px solid white;
+    padding: 12px 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.fa-play:hover{
+    
+    background-color: rgba(0, 0, 0, .7);
+    
+}
+
+.videos .btn{
+    color: #201d1a!important;
+    border: 1px solid black;
+    background: white;
+    font-family:'Staatliches';
+    font-size:13px;
+    border-radius:0;
+    letter-spacing:1px;
+    padding: 15px 30px;
+
+}
+
+.videos .btn:hover{
+    color: white!important;
+    background: #201d1a;
+}
