@@ -39,7 +39,6 @@ background-color: rgba(0, 0, 0, .5);
 .ytb-thum{
     object-fit: cover;
     display: block;
-    width: 70%;
 }
 
 .fa-play{

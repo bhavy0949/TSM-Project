@@ -1,0 +1,40 @@
+
+<!-- Services Section -->
+<section id="videos" class="bg-gray">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Videos</h2>
+            <h3 class="section-subheading text-muted">Videos description.</h3>
+        </div>
+    </div>
+
+
+<!--            <div class="row text-center">-->
+<!--                <div class="col-md-4">-->
+<!--                    <span class="fa-stack fa-4x">-->
+<!--                        <i class="fa fa-circle fa-stack-2x text-primary"></i>-->
+<!--                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>-->
+<!--                    </span>-->
+<!--                    <h4 class="service-heading">E-Commerce</h4>-->
+<!--                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<div class="py-5 row mx-0 text-center">
+    {% for video in site.videos %}
+    <div class="col-sm-12 col-md-6">
+        <div style="position: relative;">
+<!--            <img class="ytb-thumb" data-src="dvXT-AEDoyI" style="width: 100%;">-->
+            <img src="{{video.image}}"  class="img-responsive img-centered ytb-thum ">
+            <a href="//www.youtube.com/watch?v={{video.vid}}" data-lity><i class="fa-align-center fa fa-play fa-3x" style="position: absolute;"></i></a>
+        </div>
+            <h4 class="service-heading">{{video.title}}</h4>
+            <p class="text-muted">{{video.description}}</p>
+    </div>
+    {% endfor %}
+    <link href='/assets/css/videos.css' rel='stylesheet' type='text/css'>
+</div>
+</div>
+</section>

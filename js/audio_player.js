@@ -6,18 +6,17 @@ Amplitude.init({
     },
     "songs": [
       {
-        "name": "Song Name",
-        "artist": "Artist Name",
-        "url": "https://521dimensions.com/song/Ancient Astronauts - Risin' High (feat Raashan Ahmad).mp3",
-        "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg"
+        "name": "I don't wanna go",
+        "artist": "Viplav",
+        "url": "../assets/audio/01 - Viplav - I don't wanna go.mp3",
+        "cover_art_url": "../assets/audio/Viplav - Journey.png"
       },
             {
-      "name": "The Gun",
-      "artist": "Lorn",
-      "album": "Ask The Dust",
-      "url": "https://521dimensions.com/song/08 The Gun.mp3",
-      "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/ask-the-dust.jpg",
-      "visualization": "michaelbromley_visualization"
+      "name": "Hiding Away",
+      "artist": "Viplav",
+      "album": "Journey",
+      "url": "../assets/audio/02 - Viplav - Hiding Away.mp3",
+      "cover_art_url": "../assets/audio/Viplav - Journey.png",
     },
     ]
   });

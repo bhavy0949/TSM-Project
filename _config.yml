@@ -42,16 +42,18 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
+  - title: youtube
+    url: https://www.youtube.com/channel/UCnSt7IlsAlV69jxTes7WRMg
   - title: facebook
     url: https://www.facebook.com/
   - title: instagram
-    url: https://www.instagram.com/
-  - title: spotify
-    url: https://www.spotify.com/in-en/
-  - title: apple music
-    url:
+    url: https://www.instagram.com/viplashh/
+  - title: linkedin
+    url: https://www.linkedin.com/in/viplav-kumar-singh-561712136/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BK3Q49aH7Qnq3cHYoqlbTXg%3D%3D
+#  - title: spotify
+#    url: https://www.spotify.com/in-en/
+#  - title: apple music
+#    url:
 
 # Postal address (add as many lines as necessary)
 #address:
@@ -77,4 +79,21 @@ webp:
   nested: true
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
   append_ext: true
+
+releases:
+  number: 2
+
+videos:
+  - title: Ceaseless
+    description: I composed and produced this song (except the lyrics and vocal melodies which were written beautifully by Mitesh) and recorded along with my Ensemble mates Aditya Ahir (on the bass),  Sarvesh Raul (on guitar) and Kanishk Diwaker (on keys) and the results came out pretty well. This is the first time, I've recorded with my home drum kit setup 😃and have tried to keep the music simple and groovy.
+    image: https://img.youtube.com/vi/dvXT-AEDoyI/0.jpg
+    vid: dvXT-AEDoyI
+  - title: Void
+    description: I'm so excited to share this short composition that I wrote, in which I've tried to incorporate "minor" harmonic ideas (which I've been exploring for the past few months) with a bit of sampling, comping and syncopated grooves.
+    image: https://img.youtube.com/vi/SffOzJk2eXQ/0.jpg
+    vid: SffOzJk2eXQ
+  - title: Void
+    description: I'm so excited to share this short composition that I wrote, in which I've tried to incorporate "minor" harmonic ideas (which I've been exploring for the past few months) with a bit of sampling, comping and syncopated grooves.
+    image: https://img.youtube.com/vi/SffOzJk2eXQ/0.jpg
+    vid: SffOzJk2eXQ
 

@@ -64,16 +64,16 @@ function crop(url, aspectRatio) {
     })
 }
 
-$(".ytb-thumb").each(function (index) {
-
-    $(this).attr("src", Youtube.thumb($(this).attr("data-src")));
-
-});
-$(document).ready(function () {
-    let width = $(".ytb-thumb").width();
-
-    if (width > 0) {
-
-        $(".ytb-thumb").height(width * 9 / 16);
-    }
-});
+// $(".ytb-thumb").each(function (index) {
+//
+//     $(this).attr("src", Youtube.thumb($(this).attr("data-src")));
+//
+// });
+// $(document).ready(function () {
+//     let width = $(".ytb-thumb").width();
+//
+//     if (width > 0) {
+//
+//         $(".ytb-thumb").height(width * 9 / 16);
+//     }
+// });
