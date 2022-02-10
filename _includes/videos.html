@@ -24,14 +24,14 @@
 <!--    </section>-->
 <div class="py-5 row mx-0 text-center">
     {% for video in site.videos %}
-    <div class="col-sm-12 col-md-6">
-        <div style="position: relative;">
-<!--            <img class="ytb-thumb" data-src="dvXT-AEDoyI" style="width: 100%;">-->
-            <img src="{{video.image}}"  class="img-responsive img-centered ytb-thum ">
-            <a href="//www.youtube.com/watch?v={{video.vid}}" data-lity><i class="fa-align-center fa fa-play fa-3x" style="position: absolute;"></i></a>
-        </div>
-            <h4 class="service-heading">{{video.title}}</h4>
-            <p class="text-muted">{{video.description}}</p>
+    <div class="col-sm-12 col-md-6 ">
+<!--        <div style="position: relative;">-->
+<!--&lt;!&ndash;            <img class="ytb-thumb" data-src="dvXT-AEDoyI" style="width: 100%;">&ndash;&gt;-->
+<!--            <img src="{{video.image}}"  class="img-responsive img-centered ytb-thum ">-->
+<!--            <a href="//www.youtube.com/watch?v={{video.vid}}" data-lity><i class="fa-align-center fa fa-play fa-3x" style="position: absolute;"></i></a>-->
+<!--        </div>-->
+        <iframe src="https://www.youtube.com/embed/{{video.vid}}?autoplay=0" class="youtube-video-container" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--            <p class="text-muted">{{video.description}}</p>-->
     </div>
     {% endfor %}
     <link href='/assets/css/videos.css' rel='stylesheet' type='text/css'>
