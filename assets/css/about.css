@@ -1,0 +1,27 @@
+.about-panel{
+    padding: 2rem;
+}
+.about-body p{
+
+    margin-top: 3rem;
+    margin-right: 10rem;
+    font-size: 22.5px;
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: "Archivo Narrow";
+}
+.about-image img{
+
+    border-radius: 5%;
+    height: 35rem;
+}
+
+.about-subheading{
+    color:white;
+    /*text-decoration: underline;*/
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+
+}

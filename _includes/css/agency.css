@@ -62,7 +62,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #f5f9fa;
 }
 
 .bg-gray {
@@ -70,7 +70,35 @@ h6 {
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #f0ffff;
+}
+
+.bg-fixed {
+    background-attachment: fixed !important;
+}
+
+.bg-overlay {
+    position: relative;
+    z-index: 2;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0,0,0,1);
+}
+
+.featured-artist-area {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-padding-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .btn-primary {
@@ -329,27 +357,34 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 section h2.section-heading {
     margin-top: 0;
+     letter-spacing:10px;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #243d3d;
+    font-weight: 100;
+
 }
+
 
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
+    color: #ffffff;
+    font-family: {{ site.data.template.font.secondary }};
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding-bottom: 150px;
+        padding-top: 75px;
     }
 }
 

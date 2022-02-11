@@ -1,79 +1,39 @@
 <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">About Description.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-<!--                        <li class="timeline-inverted">-->
-<!--                            <div class="timeline-image">-->
-<!--                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">-->
-<!--                            </div>-->
-<!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading">-->
-<!--                                    <h4>March 2011</h4>-->
-<!--                                    <h4 class="subheading">An Agency is Born</h4>-->
-<!--                                </div>-->
-<!--                                <div class="timeline-body">-->
-<!--                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                        <li>-->
-<!--                            <div class="timeline-image">-->
-<!--                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">-->
-<!--                            </div>-->
-<!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading">-->
-<!--                                    <h4>December 2012</h4>-->
-<!--                                    <h4 class="subheading">Transition to Full Service</h4>-->
-<!--                                </div>-->
-<!--                                <div class="timeline-body">-->
-<!--                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                        <li class="timeline-inverted">-->
-<!--                            <div class="timeline-image">-->
-<!--                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">-->
-<!--                            </div>-->
-<!--                            <div class="timeline-panel">-->
-<!--                                <div class="timeline-heading">-->
-<!--                                    <h4>July 2014</h4>-->
-<!--                                    <h4 class="subheading">Phase Two Expansion</h4>-->
-<!--                                </div>-->
-<!--                                <div class="timeline-body">-->
-<!--                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                        <li class="timeline-inverted">-->
-<!--                            <div class="timeline-image">-->
-<!--                                <h4>Be Part-->
-<!--                                    <br>Of Our-->
-<!--                                    <br>Story!</h4>-->
-<!--                            </div>-->
-<!--                        </li>-->
-                    </ul>
-                </div>
+<section id="about" class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed"
+         style="background-image: url(/img/about.jpg)">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center main-head">
+                <h2 class="section-heading">About </h2>
+                <h3 class="section-subheading "></h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-6 ">
+                <div class="about-panel">
+                    <div class="about-heading">
+                        <h4 class="about-subheading">Our Humble Beginnings</h4>
+                    </div>
+                    <div class="about-body ">
+                        <p class="text-muted " style="color: #f0ffff;">Hello, my name is Viplav and I'm a keyboardist,
+                            drummer and multi-genre
+                            music producer. I have been making music for over 7 years now and my music combines elements
+                            of jazz with other genres. Do check out my new EP titled "Journey" out now.</p>
+                    </div>
+                                            <ul class="list-inline social-buttons">
+                            {% for network in site.social %}
+                            <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class=" about-image">
+                    <img class="img-responsive" src="img/about/1.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
