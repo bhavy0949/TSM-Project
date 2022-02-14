@@ -46,7 +46,7 @@ background-color: rgba(0, 0, 0, .5);
   overflow: hidden;
   width: 85%;
   border-radius: 7px;
-  box-shadow: rgba(0,0,0,0.5);
+ box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .youtube-video-container::after {

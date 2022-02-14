@@ -17,7 +17,9 @@ div.control-container {
     margin-left: 10px; }
   div.control-container div.amplitude-play-pause.amplitude-paused {
     background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/single-song/play.svg");
-    background-size: cover; }
+    background-size: cover;}
+
+
   div.control-container div.amplitude-play-pause.amplitude-playing {
     background: url("https://521dimensions.com/img/open-source/amplitudejs/examples/single-song/pause.svg");
     background-size: cover; }
@@ -132,11 +134,25 @@ div.bottom-container {
 div#single-song-player {
   border-radius: 10px;
   margin: auto;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   margin-top: 50px;
   width: 100%;
   max-width: 460px;
+  /*box-shadow: 0 1rem 2rem rgba($color-black, 0.2);*/
   -webkit-font-smoothing: antialiased; }
+div#single-song-player:hover {
+     transform: translateY(-0.3rem);
+     box-shadow: 0 1rem 2rem rgba(0,0,0, 0.5);
+   }
+    div#single-song-player::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+
+  div#single-song-player:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.2);
+  }
   div#single-song-player img[data-amplitude-song-info="cover_art_url"] {
     width: 100%;
     border-top-right-radius: 7px;
