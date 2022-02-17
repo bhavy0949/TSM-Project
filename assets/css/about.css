@@ -19,6 +19,7 @@
 .about-subheading{
     color:white;
     /*text-decoration: underline;*/
+    letter-spacing: 4px;
     padding-bottom: 15px;
     border-bottom-style: solid;
     border-bottom-width: 3.1px;

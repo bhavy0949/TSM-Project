@@ -18,6 +18,13 @@ Amplitude.init({
       "url": "../assets/audio/02 - Viplav - Hiding Away.mp3",
       "cover_art_url": "../assets/audio/Viplav - Journey.png",
     },
+              {
+      "name": "Beraahi",
+      "artist": "Viplav",
+      "album": "Journey",
+      "url": "../assets/audio/03 - Viplav - Beraahi.mp3",
+      "cover_art_url": "../assets/audio/Viplav - Journey.png",
+    },
     ]
   });
 

@@ -208,7 +208,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Playfair Display","Kanit",cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -241,7 +241,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     color: #fff;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -319,7 +319,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
+    font-style: bold;
     line-height: 22px;
 }
 
@@ -342,7 +342,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
+        /*font-style: italic;*/
         line-height: 40px;
     }
 
@@ -378,7 +378,8 @@ section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
-    font-family: {{ site.data.template.font.secondary }};
+    /*font-family: {{ site.data.template.font.secondary }};*/
+    font-family: "Domine";
 }
 
 @media(min-width:768px) {
@@ -697,7 +698,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/map-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }

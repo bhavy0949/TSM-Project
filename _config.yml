@@ -1,59 +1,19 @@
 
 # Site settings
-title: TSM
+title: Viplav
 email: tsm@email.com
-description: "AWESOME DESCRIPTION"
 
-
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
- 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: youtube
     url: https://www.youtube.com/channel/UCnSt7IlsAlV69jxTes7WRMg
   - title: facebook
-    url: https://www.facebook.com/
+    url: https://www.facebook.com/viplav.k.singh.1
   - title: instagram
     url: https://www.instagram.com/viplashh/
   - title: linkedin
     url: https://www.linkedin.com/in/viplav-kumar-singh-561712136/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BK3Q49aH7Qnq3cHYoqlbTXg%3D%3D
-#  - title: spotify
-#    url: https://www.spotify.com/in-en/
-#  - title: apple music
-#    url:
 
 # Postal address (add as many lines as necessary)
 #address:
@@ -81,7 +41,7 @@ webp:
   append_ext: true
 
 releases:
-  number: 2
+  number: 3
 
 videos:
   - title: Ceaseless
