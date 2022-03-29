@@ -301,7 +301,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: linear-gradient(to right bottom,rgba(32, 191, 85, 0.2), rgba(1, 186, 239, 0.4)), url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
